@@ -1842,25 +1842,15 @@ Wire Wire Line
 Wire Wire Line
 	550  2200 550  2150
 Wire Wire Line
-	3300 2600 3300 1850
-Wire Wire Line
-	3300 1850 3000 1850
-Wire Wire Line
 	3000 1850 3000 1900
-Connection ~ 3000 1850
 Wire Wire Line
 	3000 1850 2800 1850
 Wire Wire Line
 	3300 2700 3250 2700
 Wire Wire Line
-	3250 2700 3250 1800
-Wire Wire Line
-	3250 1800 2550 1800
-Wire Wire Line
 	2350 1800 2350 1850
 Wire Wire Line
 	2550 1800 2550 1900
-Connection ~ 2550 1800
 Wire Wire Line
 	2550 1800 2350 1800
 Wire Wire Line
@@ -2837,8 +2827,6 @@ Wire Wire Line
 	2700 3900 2900 3900
 Wire Wire Line
 	2900 3900 2900 3700
-Wire Bus Line
-	7700 1100 7700 10400
 Connection ~ 2450 4000
 Connection ~ 2900 3700
 $Comp
@@ -2855,4 +2843,16 @@ $EndComp
 Connection ~ 650  2600
 Wire Wire Line
 	650  2600 1000 2600
+Wire Wire Line
+	3300 2600 3300 1800
+Wire Wire Line
+	3300 1800 2550 1800
+Connection ~ 2550 1800
+Wire Wire Line
+	3250 2700 3250 1850
+Wire Wire Line
+	3250 1850 3000 1850
+Wire Bus Line
+	7700 1100 7700 10400
+Connection ~ 3000 1850
 $EndSCHEMATC
