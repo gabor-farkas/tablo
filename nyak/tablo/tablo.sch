@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:tablo-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -1029,13 +1028,7 @@ Wire Wire Line
 Wire Wire Line
 	8950 10300 9100 10300
 Wire Wire Line
-	8450 2250 9500 2250
-Wire Wire Line
 	9500 2250 9500 1950
-Wire Wire Line
-	8450 4000 9500 4000
-Wire Wire Line
-	9500 4000 9500 3650
 Wire Wire Line
 	8450 5700 9500 5700
 Wire Wire Line
@@ -1065,7 +1058,6 @@ F 3 "~" H 9700 3650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9700 3650 9500 3650
-Connection ~ 9500 3650
 Wire Wire Line
 	9500 3650 9500 3600
 $Comp
@@ -2852,7 +2844,16 @@ Wire Wire Line
 	3250 2700 3250 1850
 Wire Wire Line
 	3250 1850 3000 1850
+Connection ~ 3000 1850
+Connection ~ 9500 3650
+Wire Wire Line
+	9500 4000 9500 3650
+Wire Wire Line
+	8450 4000 9500 4000
+Wire Wire Line
+	9500 2250 8450 2250
+Wire Wire Line
+	8450 2250 8450 2300
 Wire Bus Line
 	7700 1100 7700 10400
-Connection ~ 3000 1850
 $EndSCHEMATC
