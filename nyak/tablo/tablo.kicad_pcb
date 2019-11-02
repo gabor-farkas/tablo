@@ -6492,7 +6492,7 @@
   (segment (start 59.055 101.6) (end 56.515 99.06) (width 0.25) (layer B.Cu) (net 150))
   (segment (start 63.5 101.6) (end 59.055 101.6) (width 0.25) (layer B.Cu) (net 150))
   (segment (start 112.395 33.02) (end 112.395 33.02) (width 0.25) (layer F.Cu) (net 150) (tstamp 5DBD502B))
-  (via (at 112.395 33.02) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 150))
+  (via (at 112.395 33.02) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 150) (status 1000000))
   (segment (start 113.03 63.5) (end 112.395 63.5) (width 0.25) (layer F.Cu) (net 150))
   (segment (start 112.395 63.5) (end 112.395 63.5) (width 0.25) (layer F.Cu) (net 150) (tstamp 5DBD5035))
   (via (at 112.395 63.5) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 150))
