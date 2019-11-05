@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:tablo-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -1152,7 +1153,7 @@ U 1 1 5DC561E1
 P 5550 5550
 F 0 "JRPI1" H 5600 6667 50  0000 C CNN
 F 1 "Conn_02x20_Odd_Even" H 5600 6576 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 5550 5550 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 5550 5550 50  0001 C CNN
 F 3 "~" H 5550 5550 50  0001 C CNN
 	1    5550 5550
 	1    0    0    -1  
