@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:tablo-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -7,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title ""
 Date ""
-Rev ""
+Rev "1.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -2751,8 +2750,6 @@ Connection ~ 7050 8850
 Wire Wire Line
 	550  2200 550  2600
 Wire Wire Line
-	550  2600 650  2600
-Wire Wire Line
 	1000 2600 1000 2200
 Connection ~ 550  2200
 Connection ~ 1000 2200
@@ -2822,20 +2819,6 @@ Wire Wire Line
 	2900 3900 2900 3700
 Connection ~ 2450 4000
 Connection ~ 2900 3700
-$Comp
-L power:Earth #PWR0120
-U 1 1 5F6E748E
-P 650 2600
-F 0 "#PWR0120" H 650 2350 50  0001 C CNN
-F 1 "Earth" H 650 2450 50  0001 C CNN
-F 2 "" H 650 2600 50  0001 C CNN
-F 3 "~" H 650 2600 50  0001 C CNN
-	1    650  2600
-	1    0    0    -1  
-$EndComp
-Connection ~ 650  2600
-Wire Wire Line
-	650  2600 1000 2600
 Wire Wire Line
 	3300 2600 3300 1800
 Wire Wire Line
@@ -2928,4 +2911,20 @@ Wire Wire Line
 	6000 4850 6000 4750
 Wire Bus Line
 	7700 1100 7700 10400
+Wire Wire Line
+	550  2600 700  2600
+$Comp
+L power:VCC #PWR0120
+U 1 1 5E138797
+P 700 2600
+F 0 "#PWR0120" H 700 2450 50  0001 C CNN
+F 1 "VCC" H 717 2773 50  0000 C CNN
+F 2 "" H 700 2600 50  0001 C CNN
+F 3 "" H 700 2600 50  0001 C CNN
+	1    700  2600
+	1    0    0    -1  
+$EndComp
+Connection ~ 700  2600
+Wire Wire Line
+	700  2600 1000 2600
 $EndSCHEMATC
